@@ -1,9 +1,9 @@
 # SAP NetWeaver 3-tier compatible converged template using a Marketplace image
 
-<a href="https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2FAzure%2Fazure-quickstart-templates%2Fmaster%2Fsap-3-tier-marketplace-image-converged-md%2Fazuredeploy.json" target="_blank">
+<a href="https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2FJOLYFRED%2FSAPonAzure-3tier-archi%2Fazuredeploy.json" target="_blank">
     <img src="http://azuredeploy.net/deploybutton.png"/>
 </a>
-<a href="http://armviz.io/#/?load=https%3A%2F%2Fraw.githubusercontent.com%2FAzure%2Fazure-quickstart-templates%2Fmaster%2Fsap-3-tier-marketplace-image-converged-md%2Fazuredeploy.json" target="_blank">
+<a href="http://armviz.io/#/?load=https%3A%2F%2Fraw.githubusercontent.com%2FJOLYFRED%2FSAPonAzure-3tier-archi%2Fazuredeploy.json" target="_blank">
     <img src="http://armviz.io/visualizebutton.png"/>
 </a>
 
@@ -60,4 +60,3 @@ DB Internal Load Balancer probe port: **62504**
 		<td>1xGS5 DB/ASCS/SCS (CL) Server (6xP30 1xP30) + 10xDS14_v2 DI</td>
 	</tr>
 </table>				
-

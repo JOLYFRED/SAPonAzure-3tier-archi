@@ -3,9 +3,6 @@
 <a href="https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2FJOLYFRED%2FSAPonAzure-3tier-archi%2Fazuredeploy.json" target="_blank">
     <img src="http://azuredeploy.net/deploybutton.png"/>
 </a>
-<a href="http://armviz.io/#/?load=https%3A%2F%2Fraw.githubusercontent.com%2FJOLYFRED%2FSAPonAzure-3tier-archi%2Fazuredeploy.json" target="_blank">
-    <img src="http://armviz.io/visualizebutton.png"/>
-</a>
 
 This template takes a minimum amount of parameters and deploys a VM that is customized for use with SAP NetWeaver, using the latest patched version of the selected operating system. This is a template for a 3-tier configuration. It deploys 1 (no HA) or 2 (HA) DB/ASCS/SCS servers and serveral virtual machines that can host dialog instances. In case of a HA deployment, the DB/ASCS/SCS and DI servers are placed in Availability Sets and a Load Balancer is added to the DB/ASCS/SCS server to allow HA configurations in the operating system (e.g. Windows Failover Cluster). This template uses Managed Disks.
 

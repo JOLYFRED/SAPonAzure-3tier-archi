@@ -6,6 +6,7 @@
       "type": "string",
       "maxLength": 3,
       "minLength": 3,
+	   "defaultValue": "P33",
       "metadata": {
         "description": "SAP System ID."
       }
@@ -25,15 +26,13 @@
     "osType": {
       "type": "string",
       "allowedValues": [
-        "Windows Server 2012 Datacenter",
         "Windows Server 2012 R2 Datacenter",
         "Windows Server 2016 Datacenter",
         "SLES 12",
-        "SLES 12 BYOS",
         "RHEL 7.2",
         "Oracle Linux 7.4"
       ],
-      "defaultValue": "Windows Server 2012 R2 Datacenter",
+      "defaultValue": "Oracle Linux 7.4",
       "metadata": {
         "description": "The type of the operating system you want to deploy."
       }
@@ -44,7 +43,7 @@
         "SQL",
         "HANA"
       ],
-      "defaultValue": "SQL",
+      "defaultValue": "HANA",
       "metadata": {
         "description": "The database type you want to use on the cluster. This information is used to create the load balancer"
       }
